@@ -1,0 +1,26 @@
+# Gestro Model Configuration
+# Author: Rakin Mohammed Rafeeq
+
+model:
+  name: "SSD MobileNet V2 FPNLite"
+  base_model: "ssd_mobilenet_v2_fpnlite_320x320_coco17"
+  num_classes: 1
+  input_size: [300, 300]
+  
+training:
+  batch_size: 24
+  num_steps: 22500
+  learning_rate: 0.004
+  warmup_steps: 1000
+  checkpoint_every: 2500
+  
+detection:
+  confidence_threshold: 0.27
+  max_detections: 10
+  nms_threshold: 0.6
+  
+dataset:
+  name: "EgoHands"
+  train_split: 0.9
+  test_split: 0.1
+  image_size: [300, 300]
