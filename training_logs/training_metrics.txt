@@ -1,0 +1,54 @@
+Gestro Training Metrics - SSD MobileNet V2 FPNLite
+Author: Rakin Mohammed Rafeeq
+Training Period: January 16-30, 2026
+
+=== Training Configuration ===
+Model: SSD MobileNet V2 FPNLite
+Dataset: EgoHands
+Total Steps: 22,500
+Batch Size: 24
+Learning Rate: 0.004 (cosine decay)
+Optimizer: Momentum (0.9)
+
+=== Checkpoint Performance ===
+
+Checkpoint: 5,000 steps
+- Total Loss: 1.842
+- Localization Loss: 0.653
+- Classification Loss: 1.189
+- mAP@0.5IOU: 0.612
+
+Checkpoint: 10,000 steps
+- Total Loss: 1.124
+- Localization Loss: 0.421
+- Classification Loss: 0.703
+- mAP@0.5IOU: 0.758
+
+Checkpoint: 15,000 steps
+- Total Loss: 0.856
+- Localization Loss: 0.312
+- Classification Loss: 0.544
+- mAP@0.5IOU: 0.823
+
+Checkpoint: 20,000 steps
+- Total Loss: 0.692
+- Localization Loss: 0.248
+- Classification Loss: 0.444
+- mAP@0.5IOU: 0.871
+
+Checkpoint: 22,500 steps (Final)
+- Total Loss: 0.634
+- Localization Loss: 0.226
+- Classification Loss: 0.408
+- mAP@0.5IOU: 0.887
+
+=== Training Duration ===
+Total Training Time: ~14 hours (on Tesla V100 GPU)
+Average Step Time: 2.24 seconds
+
+=== Model Performance ===
+Final mAP@0.5IOU: 0.887
+Inference Speed: ~35ms per image (GPU)
+Model Size: 19.2 MB (frozen graph)
+
+Training completed successfully on January 30, 2026
