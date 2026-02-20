@@ -19,7 +19,11 @@ Real-time hand gesture detection using computer vision and deep learning.
 ✅ Hand tracking with temporal smoothing
 ✅ Gesture recognition pipeline
 ✅ Video processing capabilities
-🚧 API and dashboard development in progress
+✅ FastAPI REST API with multiple endpoints
+✅ WebSocket support for real-time streaming
+✅ API middleware (logging, rate limiting, error handling)
+✅ Comprehensive test suite (pytest)
+🚧 Dashboard UI development in progress
 
 ## Model Performance
 - Training Steps: 22,500
@@ -28,12 +32,14 @@ Real-time hand gesture detection using computer vision and deep learning.
 - Real-time FPS: ~28 FPS (webcam)
 - Model Size: 19.2 MB
 
-## Features
-- Multi-threaded webcam detection
-- Temporal smoothing for stable tracking
-- Gesture-to-command mapping
-- Video file processing
-- Performance benchmarking
+## API Features
+- Image detection endpoint
+- Batch processing
+- Base64 image support
+- WebSocket real-time streaming
+- Metrics streaming
+- Rate limiting
+- Request logging
 
 ## Status
 🚧 Under Development
