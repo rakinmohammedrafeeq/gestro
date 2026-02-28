@@ -338,8 +338,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@rakinmohammedrafeeq](https://github.com/rakinmohammedrafeeq)
 - Project Link: [https://github.com/rakinmohammedrafeeq/gestro](https://github.com/rakinmohammedrafeeq/gestro)
 
-**Project Timeline**: January 2026 - February 2026
-
 ## 🙏 Acknowledgments
 
 - **TensorFlow Object Detection API** - Framework for training
