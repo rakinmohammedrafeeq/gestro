@@ -334,31 +334,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Rakin Mohammed Rafeeq**
+- Portfolio: [https://rakinmohammedrafeeq.vercel.app](https://rakinmohammedrafeeq.vercel.app)
 - GitHub: [@rakinmohammedrafeeq](https://github.com/rakinmohammedrafeeq)
 - Project Link: [https://github.com/rakinmohammedrafeeq/gestro](https://github.com/rakinmohammedrafeeq/gestro)
+
+**Project Timeline**: January 2026 - February 2026
 
 ## 🙏 Acknowledgments
 
 - **TensorFlow Object Detection API** - Framework for training
 - **EgoHands Dataset** - Indiana University for the hand detection dataset
 - **SSD Paper** by Liu et al. - Single Shot MultiBox Detector architecture
-- **Victor Dibia** - Initial hand tracking implementation inspiration
 - **OpenCV Community** - Computer vision tools and libraries
-
-## 📊 Project Timeline
-
-**Development Period**: January 2026 - February 2026
-
-- ✅ Dataset preparation and annotation pipeline
-- ✅ Transfer learning and model training
-- ✅ Real-time inference engine
-- ✅ Multi-threading optimization
-- ✅ REST API with FastAPI
-- ✅ WebSocket real-time streaming
-- ✅ React/TypeScript dashboard
-- ✅ Docker containerization
-- ✅ CI/CD with GitHub Actions
-- ✅ Integration testing and optimization
 
 ## 📞 Support
 
